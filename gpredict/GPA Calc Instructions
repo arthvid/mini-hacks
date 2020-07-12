@@ -1,0 +1,38 @@
+Instructions:
+
+This GPA calculator has two primary features.
+
+1. It allows you to enter your current grades along with the number of
+units of said grades to calculate your current GPA.
+
+If you want to calculate your GPA, enter commands in the following order:
+
+>> calculate *grade* *units* *grade* *units*
+
+Eg. If you had 4 units of A's and 12 units of B+'s, you would enter the following:
+
+>> calculate A 4 B+ 12
+
+2. It allows you to enter a desired GPA, along with a preferred grade you would
+want to achieve in order to get that GPA, along with the number of semesters you
+want to achieve this GPA by. It then tells you whether or not this goal is possible,
+and if possible, it tells you how many units of said grade you would have to achieve
+on average per semester to reach your desired GPA.
+
+Let us understand through an example. Say someone had 4 units of A's, 3 units of A-'s,
+and 12 units of B's right now. Say they had a desired GPA of 3.8 and they wanted to achieve
+this GPA by scoring all A-'s. This means A- is their preferred grade. They then wish to do so
+in 3 semesters. Based on these parameters, the person would enter the following commands:
+
+>> predict A 4 A- 3 B 12 3.8 3 A-
+
+The program would then either determine whether this was possible or not (in this case
+it is possible) and would spit out the following output:
+
+Your current GPA is 3.3210526315789473
+To achieve a desired GPA of 3.8
+Over a total of 3 semester(s)
+Assuming your goal is to get all A-'s
+You must get:
+91 units worth of A-'s
+At an average of 30.33 units of A-'s per semester.
